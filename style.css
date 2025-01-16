@@ -4,6 +4,7 @@ body {
     background-color: rgb(177, 177, 177);
 }
 
+/* navigation bar design start */
 .navigation-container {
     display: flex;
     align-items: center; 
@@ -27,7 +28,40 @@ margin-left: 6px;
 
 .nav-list a{
     text-decoration: none;
-    color: red;
+    color: #F47287;
+}
+/* navigation bar design end */
+
+
+/* Search bar design start */
+.search-bar-container {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 30vh; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
+.search-input {
+    height: 5vh;
+    width: 40vw;
+    border-radius: 5px;
+}
 
+.search-button{
+    background-color: #F47287;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    height: 5vh;
+    width: 4vw;
+}
+
+.search-button:hover {
+    cursor: pointer;
+}
