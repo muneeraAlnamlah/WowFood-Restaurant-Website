@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(177, 177, 177);
+}
+
+.navigation-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    height: 9vh;
+    padding: 10px 20px; 
+    background-color: white; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.navigation-container img {
+margin-left: 6px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 15px;
+    list-style: none; 
+    margin-right: 6px;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: red;
+}
+
+
