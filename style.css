@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(177, 177, 177);
+    background-color: rgb(238, 238, 238);
 }
 
 /* navigation bar design start */
@@ -77,6 +77,7 @@ margin-left: 6px;
     margin:0;
     align-items: center;
     padding: 10px 20px;
+    height: 60vh;
 }
 .card-container {
     /* border: 10px solid red; */
@@ -96,4 +97,51 @@ margin-left: 6px;
     display: flex;
     justify-content:center;
     align-items: end;
+}
+/* Explore section design end */
+
+/* Food Menu design start */
+.food-menue-container {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.menue-items-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 25vw;
+    height: 17vh;
+    border-radius: 15px;
+    padding: 10px 20px;
+    gap: 15px;
+}
+
+.menu-item img {
+    width: 7vw;
+    border-radius: 15px;
+}
+.menu-item button {
+    background-color: #F47287;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    width: 4vw;
+    font-size: x-small;
+    margin-left: 20px;
+}
+
+.item-descreption p {
+    margin: 0;
+    padding: 5px 20px;
 }
