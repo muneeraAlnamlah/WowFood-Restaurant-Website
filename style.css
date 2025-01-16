@@ -45,6 +45,7 @@ margin-left: 6px;
     justify-content: center;
     align-items: center;
     gap: 15px;
+    margin:0;
 }
 
 .search-input {
@@ -64,4 +65,35 @@ margin-left: 6px;
 
 .search-button:hover {
     cursor: pointer;
+}
+/* Search bar design start */
+
+/* Explore section design start */
+.explore-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    margin:0;
+    align-items: center;
+    padding: 10px 20px;
+}
+.card-container {
+    /* border: 10px solid red; */
+    width:110vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card {
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 15vw;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: end;
 }
